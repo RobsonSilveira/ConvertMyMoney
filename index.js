@@ -25,7 +25,7 @@ app.get("/cotacao", (req, res) => {
       conversao: convert.toMoney(conversao),
     });
   } else {
-    res.render("cotacao", { error: "Valores inválidos" });
+    res.render("cotacao", { error: "Valores inválidos  " });
   }
 });
 
